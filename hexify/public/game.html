@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf8">
+        <title>Hexify: Lets Play!</title>
+        <link rel = "stylesheet" href="stylesheets/game.css">
+    </head>
+    <body>
+        <canvas id="gridCanvas" width="872" height="632" style="cursor: default;"></canvas> 
+        <section class="main">
+            <button><a href="game.html" target="_blank">New Game</a></button>
+            <div><span class="moves">Moves Played:</span>
+                <section id = "movesPlayed" class = "moves">
+                </section>
+                <span class = "time">Time elapsed: <span id = "timeElapsed" border: none>0</span> seconds</span>
+            </div>
+            <button><a href="instructions.html" target="_blank">Help</a></button>
+            <span class = "gameStatus" id = "gameStatus"></span>
+        </section>
+        <script src = "javascripts/gameboard.js"></script>
+    </body>
+</html>
