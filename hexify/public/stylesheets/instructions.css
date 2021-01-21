@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@media (min-width: 768px) {
+
+  h1::after {
+    content: " -Connect your color!";
+  }
+
+  h1::before {
+    content: "RULES: ";
+  }
+
+  body {
+    padding: 50px;
+    float: justify;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 40px;
+    margin-left: 100px;
+    background-color: #f8f3eb;
+    display: grid;
+    text-align: center;
+}
+
+a { 
+    color: #000000;
+    text-decoration: none;
+}
+
+button {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 100px;
+    background-color: #f18c8e;
+    margin-top: 10pt;
+  }
+  
+  button:hover{
+    background-color: #c06b6d;
+  }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+@media (min-width: 768px){
+
+  body {
+    padding: 50px;
+    float: justify;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    margin-left: 100px;
+    background-color: #f8f3eb;
+    display: flex;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  button {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+    background-color: #f18c8e;
+    margin-top: 10pt;
+  }
+  
+  button:hover{
+    background-color: #c06b6d;
+  }
+
+  a:active{
+    color: #f8f3eb;
+  }
+  
+  canvas {
+    font-family: 'Nanum Pen Script', cursive;
+    float: left;
+  }
+  
+  section.moves {
+    height:120px;
+    width:240px;
+    border:1px solid #ccc;
+    overflow:auto;
+    background-color: #f18c8e;
+    margin-bottom: 10pt;
+  }
+  
+  section.main {
+    align-content: center;
+    margin-top: 50pt;
+    text-align: center;
+    float: center;
+    display: grid;
+    margin-bottom: 100px;
+  }
+  
+  span.time {
+    background-color: #f18c8e;
+    border: 1px solid black;
+  }
+  
+  span.moves {
+    margin-bottom: 10pt;
+  }
+  
+  span.gameStatus {
+    margin-top: 20pt;
+    font-size: 40px;
+  }
+  
+  section.status {
+    margin-top: 500px;
+    position: absolute;
+    left: 10px
+  }
+}
