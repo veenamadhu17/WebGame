@@ -16,7 +16,7 @@ npm install
 npm start
 ```
 
-You can now access the game at [http://localhost:3000/](http://localhost:3000/) in the browser. Open another browser window to access the game as another player.
+You can now access the game at [http://localhost:3000/welcome](http://localhost:3000/welcome) in the browser. Open another browser window to access the game as another player.
 
 If you want to change the port two actions are required: 
 
