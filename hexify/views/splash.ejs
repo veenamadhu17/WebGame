@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf8">
+        <title>Hexify: Welcome!</title>
+        <link rel = "stylesheet" href="stylesheets/splash.css">
+    </head>
+    <body>
+        <header>
+            <button><a href = "instructions.html" target="_blank">How to play?</a></button>
+        </header>
+        <main class="container">
+            <h1>HEXify</h1>
+        <div class="play"><a href="game.html"><img src="play button.png" id = "play"></a></div>
+        <div>Total games initialized: <%= gamesInitialized %></div>
+        <div>Completed games: <%= gamesCompleted/2 %></div>
+        <div>Total users played: <%= gamePlayers %></div>
+        </main>
+        <footer>
+            <img src="logo.png" height="70">
+        </footer>
+        <script src="splash.js"></script>
+    </body>
+</html>
